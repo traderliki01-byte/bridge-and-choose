@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/Navbar";
 import { ProjectCard } from "@/components/ProjectCard";
+import { TrendingUp, Building2 } from "lucide-react";
 
 const Index = () => {
   return (
@@ -24,12 +25,14 @@ const Index = () => {
             description="Smart lead generation tools to grow your business. Access powerful analytics, automated campaigns, and conversion tracking."
             buttonText="Go to Cocolevio Leadgen Pro"
             href="/cocolevio"
+            icon={TrendingUp}
           />
           <ProjectCard
             title="Gov Website"
             description="Official portal with resources and services. Find government information, submit applications, and access citizen services."
             buttonText="Go to Gov Website"
             href="/govwebsite"
+            icon={Building2}
           />
         </div>
       </main>
